@@ -1,0 +1,10 @@
+# Solicita ao usuário para inserir um número
+numero = float(input("Digite um número: "))
+
+# Verifica se o número é positivo, negativo ou zero e imprime uma mensagem apropriada
+if numero > 0:
+    print("O número inserido é positivo.")
+elif numero < 0:
+    print("O número inserido é negativo.")
+else:
+    print("O número inserido é zero.")
